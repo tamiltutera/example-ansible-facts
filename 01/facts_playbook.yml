@@ -6,8 +6,7 @@
 - name: 'Accessing the facts inside the playbook'
 
   # Target: where our play will run and options it will run with
-  hosts: localhost
-  connection: local
+  hosts: all
   gather_facts: true
 
   # Task: the list of tasks that will be executed within the playbook
